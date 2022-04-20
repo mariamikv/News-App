@@ -1,12 +1,13 @@
 package com.example.newsapp.modles
 
+import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
-@Entity(
-    tableName = "articles"
-)
+@Entity(tableName = "articles")
+@Parcelize
 data class Article(
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null,
@@ -26,4 +27,4 @@ data class Article(
     val url: String?,
     @SerializedName("urlToImage")
     val urlToImage: String?
-)
+): Parcelable

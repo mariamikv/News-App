@@ -1,6 +1,6 @@
 package com.example.newsapp.api
 
-import com.example.newsapp.modles.NewsResponce
+import com.example.newsapp.modles.NewsResponse
 import com.example.newsapp.utlis.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
@@ -15,12 +15,12 @@ interface ApiService {
         pageNumber: Int = 1,
         @Query("apiKey")
         apiKey: String = API_KEY
-    ): Response<NewsResponce>
+    ): Response<NewsResponse>
 
     @GET("v2/everything")
     suspend fun searchForNews(
         @Query("q") searchQuery: String,
         @Query("page") pageNumber: Int = 1,
         @Query("apiKey") apiKey: String = API_KEY
-    ): Response<NewsResponce>
+    ): Response<NewsResponse>
 }

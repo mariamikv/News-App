@@ -3,7 +3,7 @@ package com.example.newsapp.view_models
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.newsapp.modles.NewsResponce
+import com.example.newsapp.modles.NewsResponse
 import com.example.newsapp.repository.NewsRepository
 import com.example.newsapp.utlis.Resource
 import kotlinx.coroutines.launch
@@ -11,10 +11,10 @@ import retrofit2.Response
 
 class NewsViewModel( val newsRepository: NewsRepository): ViewModel(){
 
-    val breakingNews: MutableLiveData<Resource<NewsResponce>> = MutableLiveData()
+    val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     val breakingNewsPage = 1
 
-    val searchNews: MutableLiveData<Resource<NewsResponce>> = MutableLiveData()
+    val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     val searchNewsPage = 1
 
     init {
@@ -35,7 +35,7 @@ class NewsViewModel( val newsRepository: NewsRepository): ViewModel(){
         searchNews.postValue(handleSearchNewsResponse(response))
     }
 
-    private fun handleBreakingNewsResponse(response: Response<NewsResponce>): Resource<NewsResponce>{
+    private fun handleBreakingNewsResponse(response: Response<NewsResponse>): Resource<NewsResponse>{
         if(response.isSuccessful){
             response.body()?.let {
                 return Resource.Success(it)
@@ -44,7 +44,7 @@ class NewsViewModel( val newsRepository: NewsRepository): ViewModel(){
         return Resource.Error(response.message())
     }
 
-    private fun handleSearchNewsResponse(response: Response<NewsResponce>): Resource<NewsResponce>{
+    private fun handleSearchNewsResponse(response: Response<NewsResponse>): Resource<NewsResponse>{
         if(response.isSuccessful){
             response.body()?.let {
                 return Resource.Success(it)

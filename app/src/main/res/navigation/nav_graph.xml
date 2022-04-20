@@ -9,7 +9,13 @@
         android:id="@+id/articleFragment"
         android:name="com.example.newsapp.ui.fragments.ArticleFragment"
         android:label="fragment_article"
-        tools:layout="@layout/fragment_article" />
+        tools:layout="@layout/fragment_article" >
+        <argument
+            android:name="articleData"
+            app:argType="com.example.newsapp.modles.Article"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
     <fragment
         android:id="@+id/breakingNewsFragment"
         android:name="com.example.newsapp.ui.fragments.BreakingNewsFragment"

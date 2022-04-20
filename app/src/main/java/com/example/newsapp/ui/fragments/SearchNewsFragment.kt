@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newsapp.adapters.NewsAdapter
 import com.example.newsapp.databinding.FragmentSearchNewsBinding
@@ -69,6 +70,11 @@ class SearchNewsFragment : BaseFragment<FragmentSearchNewsBinding>(FragmentSearc
                     }
                 }
             }
+        }
+
+        newsAdapter.setOnItemClickListener {
+            val action = SearchNewsFragmentDirections.actionSearchNewsFragmentToArticleFragment(it)
+            findNavController().navigate(action)
         }
     }
 

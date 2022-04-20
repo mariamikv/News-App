@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newsapp.adapters.NewsAdapter
 import com.example.newsapp.databinding.FragmentBreakingNewsBinding
@@ -15,8 +16,8 @@ import com.example.newsapp.view_models.NewsViewModel
 
 class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentBreakingNewsBinding::inflate) {
 
-    lateinit var viewModel: NewsViewModel
-    lateinit var newsAdapter: NewsAdapter
+    private lateinit var viewModel: NewsViewModel
+    private lateinit var newsAdapter: NewsAdapter
 
     override fun startCreating(inflater: LayoutInflater, container: ViewGroup?) {
         init()
@@ -47,6 +48,11 @@ class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentB
                     showProgressBar()
                 }
             }
+        }
+
+        newsAdapter.setOnItemClickListener {
+            val action = BreakingNewsFragmentDirections.actionBreakingNewsFragmentToArticleFragment(it)
+            findNavController().navigate(action)
         }
     }
 
