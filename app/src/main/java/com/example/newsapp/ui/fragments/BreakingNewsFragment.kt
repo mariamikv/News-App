@@ -25,25 +25,29 @@ class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentB
     private fun init(){
         viewModel = (activity as NewsActivity).viewModel
         setUpRecyclerView()
-        viewModel.breakingNews.observe(viewLifecycleOwner, Observer {
-            when(it){
-               is Resource.Success -> {
-                   hideProgressBar()
-                   it.data?.let { newsResponse ->
-                       newsAdapter.differ.submitList(newsResponse.articles)
-                   }
-               }
+        viewModel.breakingNews.observe(viewLifecycleOwner) {
+            when (it) {
+                is Resource.Success -> {
+                    hideProgressBar()
+                    it.data?.let { newsResponse ->
+                        newsAdapter.differ.submitList(newsResponse.articles)
+                    }
+                }
                 is Resource.Error -> {
                     hideProgressBar()
                     it.massage?.let { massage ->
-                        Toast.makeText(requireContext(), "Cant fetch data: $massage", Toast.LENGTH_LONG).show()
+                        Toast.makeText(
+                            requireContext(),
+                            "Cant fetch data: $massage",
+                            Toast.LENGTH_LONG
+                        ).show()
                     }
                 }
-                is Resource.Loading ->{
+                is Resource.Loading -> {
                     showProgressBar()
                 }
             }
-        })
+        }
     }
 
     private fun setUpRecyclerView(){

@@ -7,9 +7,9 @@ import com.example.newsapp.R
 fun ImageView.setImageUrl(url:String){
     if(url.isNotEmpty()){
         Glide.with(context).load(url)
-            .placeholder(R.drawable.ic_launcher_background)
+            .placeholder(R.drawable.placeholder)
             .into(this)
     }else{
-        setImageResource(R.drawable.ic_launcher_background)
+        setImageResource(R.drawable.placeholder)
     }
 }
