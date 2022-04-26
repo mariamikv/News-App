@@ -3,11 +3,14 @@ package com.example.newsapp.ui.fragments
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.webkit.WebViewClient
+import android.widget.Toast
 import androidx.navigation.fragment.navArgs
 import com.example.newsapp.databinding.FragmentArticleBinding
 import com.example.newsapp.ui.NewsActivity
 import com.example.newsapp.utlis.BaseFragment
 import com.example.newsapp.view_models.NewsViewModel
+import com.google.android.material.snackbar.Snackbar
+import java.time.DayOfWeek
 
 class ArticleFragment : BaseFragment<FragmentArticleBinding>(FragmentArticleBinding::inflate) {
 
@@ -19,6 +22,7 @@ class ArticleFragment : BaseFragment<FragmentArticleBinding>(FragmentArticleBind
     }
 
     private fun init(){
+
         viewModel = (activity as NewsActivity).viewModel
 
         val article = args.articleData
@@ -26,6 +30,13 @@ class ArticleFragment : BaseFragment<FragmentArticleBinding>(FragmentArticleBind
         binding.webView.apply {
             webViewClient = WebViewClient()
             article?.url?.let { loadUrl(it) }
+        }
+
+        binding.fab.setOnClickListener {
+            if (article != null) {
+                viewModel.savedArticle(article)
+            }
+            Toast.makeText(requireContext(), "Article saved successfully", Toast.LENGTH_LONG).show()
         }
     }
 }
