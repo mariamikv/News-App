@@ -9,12 +9,11 @@ import com.example.newsapp.databinding.FragmentArticleBinding
 import com.example.newsapp.ui.NewsActivity
 import com.example.newsapp.utlis.BaseFragment
 import com.example.newsapp.view_models.NewsViewModel
-import com.google.android.material.snackbar.Snackbar
-import java.time.DayOfWeek
+import org.koin.android.ext.android.get
 
 class ArticleFragment : BaseFragment<FragmentArticleBinding>(FragmentArticleBinding::inflate) {
 
-    private lateinit var viewModel: NewsViewModel
+    private val viewModel = get<NewsViewModel>()
     private val args: ArticleFragmentArgs by navArgs()
 
     override fun startCreating(inflater: LayoutInflater, container: ViewGroup?) {
@@ -22,8 +21,6 @@ class ArticleFragment : BaseFragment<FragmentArticleBinding>(FragmentArticleBind
     }
 
     private fun init(){
-
-        viewModel = (activity as NewsActivity).viewModel
 
         val article = args.articleData
         // display article in web view

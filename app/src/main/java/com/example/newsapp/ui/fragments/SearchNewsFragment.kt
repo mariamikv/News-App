@@ -11,30 +11,27 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.newsapp.adapters.NewsAdapter
 import com.example.newsapp.databinding.FragmentSearchNewsBinding
-import com.example.newsapp.ui.NewsActivity
 import com.example.newsapp.utlis.BaseFragment
 import com.example.newsapp.utlis.Constants
 import com.example.newsapp.utlis.Constants.Companion.SEARCH_NEWS_TIME_DELAY
 import com.example.newsapp.utlis.Resource
-import com.example.newsapp.view_models.NewsViewModel
-import kotlinx.android.synthetic.main.fragment_search_news.view.*
+import com.example.newsapp.view_models.SearchViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import org.koin.android.ext.android.get
 
 class SearchNewsFragment : BaseFragment<FragmentSearchNewsBinding>(FragmentSearchNewsBinding::inflate) {
 
-    lateinit var viewModel: NewsViewModel
-    lateinit var newsAdapter: NewsAdapter
+    private val viewModel = get<SearchViewModel>()
+    private lateinit var newsAdapter: NewsAdapter
 
     override fun startCreating(inflater: LayoutInflater, container: ViewGroup?) {
         init()
     }
 
     private fun init(){
-        viewModel = (activity as NewsActivity).viewModel
-
         setUpRecyclerView()
 
         viewModel.searchNews.observe(viewLifecycleOwner) {
@@ -68,7 +65,7 @@ class SearchNewsFragment : BaseFragment<FragmentSearchNewsBinding>(FragmentSearc
 
         //coroutine delay implementation
         var job: Job?= null
-        binding.outlinedTextField.etSearch.addTextChangedListener {
+        binding.etSearch.addTextChangedListener {
             job?.cancel()
             job = MainScope().launch {
                 delay(SEARCH_NEWS_TIME_DELAY)
@@ -87,12 +84,11 @@ class SearchNewsFragment : BaseFragment<FragmentSearchNewsBinding>(FragmentSearc
     }
 
     // handling pagination without paging library, because API doesn't support pagination
-
     var isLoading = false
     var isLastPage = false
     var isScrolling = false
 
-    var pagingScrollListener = object : RecyclerView.OnScrollListener(){
+    private var pagingScrollListener = object : RecyclerView.OnScrollListener(){
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
             if(newState== AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL){

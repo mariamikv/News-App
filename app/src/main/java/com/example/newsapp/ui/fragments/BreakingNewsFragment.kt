@@ -5,7 +5,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.Toast
-import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,10 +15,11 @@ import com.example.newsapp.utlis.BaseFragment
 import com.example.newsapp.utlis.Constants.Companion.QUERY_PAGE_SIZE
 import com.example.newsapp.utlis.Resource
 import com.example.newsapp.view_models.NewsViewModel
+import org.koin.android.ext.android.get
 
 class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentBreakingNewsBinding::inflate) {
 
-    private lateinit var viewModel: NewsViewModel
+    private val viewModel = get<NewsViewModel>()
     private lateinit var newsAdapter: NewsAdapter
 
     override fun startCreating(inflater: LayoutInflater, container: ViewGroup?) {
@@ -27,7 +27,6 @@ class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentB
     }
 
     private fun init(){
-        viewModel = (activity as NewsActivity).viewModel
         setUpRecyclerView()
         viewModel.breakingNews.observe(viewLifecycleOwner) {
             when (it) {
@@ -65,12 +64,11 @@ class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentB
     }
 
     // handling pagination without paging library, because API doesn't support pagination
-
     var isLoading = false
     var isLastPage = false
     var isScrolling = false
 
-    var pagingScrollListener = object : RecyclerView.OnScrollListener(){
+    private var pagingScrollListener = object : RecyclerView.OnScrollListener(){
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
             if(newState==AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL){

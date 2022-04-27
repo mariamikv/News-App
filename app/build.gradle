@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.devtools.ksp'
 }
 
 android {
@@ -38,6 +39,14 @@ android {
     }
 }
 
+android {
+    applicationVariants.all { variant ->
+        variant.sourceSets.java.each {
+            it.srcDirs += "build/generated/ksp/${variant.name}/kotlin"
+        }
+    }
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -63,16 +72,24 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
 
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.0'
+
     // Coroutine Lifecycle Scopes
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.4.1")
+
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
     implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
     implementation 'androidx.lifecycle:lifecycle-common:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
 
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.3"
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
 
     // Navigation Components
     implementation "androidx.navigation:navigation-fragment-ktx:2.4.2"
@@ -81,5 +98,54 @@ dependencies {
     // Glide
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
+
+
+//    // Koin
+//    implementation "io.insert-koin:koin-core:3.1.2"
+//    testImplementation "io.insert-koin:koin-test:3.1.2"
+//
+//    // Koin Annotations
+//    implementation "io.insert-koin:koin-annotations:1.6.10-1.0.2"
+//    // Koin Annotations - Ksp Compiler
+//    ksp "io.insert-koin:koin-ksp-compiler:1.6.10-1.0.2"
+//
+//    implementation "io.insert-koin:koin-android:2.1.6"
+//
+//    implementation "org.koin:koin-android:2.1.6"
+//    implementation 'org.koin:koin-androidx-viewmodel:2.1.6'
+//    implementation 'org.koin:koin-androidx-scope:2.1.6'
+
+     def koin_version= "3.2.0-beta-1"
+    // Koin Core features
+    implementation "io.insert-koin:koin-core:$koin_version"
+// Koin Test features
+    testImplementation "io.insert-koin:koin-test:$koin_version"
+    // Koin for JUnit 4
+    testImplementation "io.insert-koin:koin-test-junit4:$koin_version"
+// Koin for JUnit 5
+    testImplementation "io.insert-koin:koin-test-junit5:$koin_version"
+    // Koin main features for Android
+    implementation "io.insert-koin:koin-android:$koin_version"
+// No more koin-android-viewmodel, koin-android-scope, koin-android-fragment
+
+// Java Compatibility
+    implementation "io.insert-koin:koin-android-compat:$koin_version"
+// Jetpack WorkManager
+    implementation "io.insert-koin:koin-androidx-workmanager:$koin_version"
+// Navigation Graph
+    implementation "io.insert-koin:koin-androidx-navigation:$koin_version"
+// Jetpack Compose
+    implementation "io.insert-koin:koin-androidx-compose:$koin_version"
+    // Koin for Ktor
+    implementation "io.insert-koin:koin-ktor:$koin_version"
+// SLF4J Logger
+    implementation "io.insert-koin:koin-logger-slf4j:$koin_version"
+
+
+    // okhttp
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3'
+
+    //Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
 
 }
