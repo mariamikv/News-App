@@ -10,9 +10,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.newsapp.adapters.NewsAdapter
 import com.example.newsapp.databinding.FragmentBreakingNewsBinding
-import com.example.newsapp.ui.NewsActivity
 import com.example.newsapp.utlis.BaseFragment
-import com.example.newsapp.utlis.Constants.Companion.QUERY_PAGE_SIZE
+import com.example.newsapp.utlis.Constants.QUERY_PAGE_SIZE
 import com.example.newsapp.utlis.Resource
 import com.example.newsapp.view_models.NewsViewModel
 import org.koin.android.ext.android.get
@@ -27,6 +26,7 @@ class BreakingNewsFragment : BaseFragment<FragmentBreakingNewsBinding>(FragmentB
     }
 
     private fun init(){
+
         setUpRecyclerView()
         viewModel.breakingNews.observe(viewLifecycleOwner) {
             when (it) {

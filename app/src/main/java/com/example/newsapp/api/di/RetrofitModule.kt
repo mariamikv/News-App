@@ -1,9 +1,9 @@
 package com.example.newsapp.api.di
 
-import com.example.newsapp.utlis.Constants.Companion.BASE_URL
-import com.example.newsapp.utlis.Constants.Companion.CONNECT_TIMEOUT
-import com.example.newsapp.utlis.Constants.Companion.READ_TIMEOUT
-import com.example.newsapp.utlis.Constants.Companion.WRITE_TIMEOUT
+import com.example.newsapp.utlis.Constants.BASE_URL
+import com.example.newsapp.utlis.Constants.CONNECT_TIMEOUT
+import com.example.newsapp.utlis.Constants.READ_TIMEOUT
+import com.example.newsapp.utlis.Constants.WRITE_TIMEOUT
 import com.google.gson.GsonBuilder
 import okhttp3.Cache
 import okhttp3.Interceptor
@@ -55,7 +55,6 @@ private fun Scope.retrofitHttpClient(): OkHttpClient {
         writeTimeout(WRITE_TIMEOUT, TimeUnit.SECONDS)
         readTimeout(READ_TIMEOUT, TimeUnit.SECONDS)
         retryOnConnectionFailure(true)
-        //addInterceptor(get())
         addInterceptor(HttpLoggingInterceptor().apply {
             level = if(BuildConfig.DEBUG){
                 HttpLoggingInterceptor.Level.HEADERS

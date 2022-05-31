@@ -13,7 +13,7 @@ import com.example.newsapp.adapters.NewsAdapter
 import com.example.newsapp.databinding.FragmentSearchNewsBinding
 import com.example.newsapp.utlis.BaseFragment
 import com.example.newsapp.utlis.Constants
-import com.example.newsapp.utlis.Constants.Companion.SEARCH_NEWS_TIME_DELAY
+import com.example.newsapp.utlis.Constants.SEARCH_NEWS_TIME_DELAY
 import com.example.newsapp.utlis.Resource
 import com.example.newsapp.view_models.SearchViewModel
 import kotlinx.coroutines.Job

@@ -4,13 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/bottom_nav_item_color.xml" value="0.1" />
+        <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/ic_bookmark_svgrepo_com.xml" value="0.1375" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/ic_breaking_news.xml" value="0.129" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_article.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_breaking_news.xml" value="0.1" />
+        <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_breaking_news.xml" value="0.264" />
+        <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_custom_splash_screen.xml" value="0.14673913043478262" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_news_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_saved_news.xml" value="0.1" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_search_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_article_preview.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/layout/news_activity.xml" value="0.1" />
         <entry key="..\:/Users/Kvanto/AndroidStudioProjects/NewsApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />

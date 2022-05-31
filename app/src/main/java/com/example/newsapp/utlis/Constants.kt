@@ -1,7 +1,6 @@
 package com.example.newsapp.utlis
 
-class Constants {
-    companion object {
+object Constants{
         const val API_KEY = "6953a7421bb749c589e687746c85eee8"
         const val BASE_URL = "https://newsapi.org"
         const val SEARCH_NEWS_TIME_DELAY = 500L
@@ -9,5 +8,4 @@ class Constants {
         const val CONNECT_TIMEOUT = 15L
         const val WRITE_TIMEOUT = 15L
         const val READ_TIMEOUT = 15L
-    }
-}
+ }
