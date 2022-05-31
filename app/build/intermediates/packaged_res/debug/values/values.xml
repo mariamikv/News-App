@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="item_color_active">#051A35</color>
+    <color name="item_color_inactive">#020B15</color>
+    <color name="purple_200">#0B0E13</color>
+    <color name="purple_500">#091117</color>
+    <color name="purple_700">#050A12</color>
+    <color name="teal_200">#010B19</color>
+    <color name="teal_700">#ecf4f8</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="action_bar">action bar</string>
+    <string name="app_name">Breaking News Platform</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="image">image</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="published_at">PUBLISHED AT</string>
+    <string name="saved_news">Saved News</string>
+    <string name="search">Search...</string>
+    <string name="search_news">Search News</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="source">SOURCE</string>
+    <string name="title">TITLE</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <style name="Theme.NewsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.NewsApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.NewsApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.NewsApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

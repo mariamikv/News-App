@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_article.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_article.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_placeholder.jpg.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\placeholder.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_add_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_favorite_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_favorite_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_breaking_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_breaking_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_search_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_saved_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_saved_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_breaking_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_breaking_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search_news.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_search_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bookmark_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\drawable\\ic_bookmark_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\font_font_text.ttf.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\font\\font_text.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_item_article_preview.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\item_article_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_news_activity.xml.flat",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\news_activity.xml"
+    }
+]

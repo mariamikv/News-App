@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.newsapp.ui.fragments.ArticleFragmentArgs","com.example.newsapp.ui.fragments.BreakingNewsFragmentDirections","com.example.newsapp.ui.fragments.SavedNewsFragmentDirections","com.example.newsapp.ui.fragments.SearchNewsFragmentDirections"]}]

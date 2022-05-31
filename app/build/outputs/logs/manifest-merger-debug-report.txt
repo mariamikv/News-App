@@ -1,0 +1,651 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-androidx-navigation:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\5a41c44cf1b421f602a9c33e63f5f6c5\transformed\jetified-koin-androidx-navigation-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f5e4f229de6a1e7996d56a297a1dff4e\transformed\jetified-koin-android-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\afda3a2d602dc25f898ed025d311b306\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\524072ebea95238bfa535a2e3a5998bb\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\58a85c2dd4bba995832fd6e5444d0e17\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0a34521ded0930bd7dec66fd0eca6d12\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\836a93892456cdb3c07cc4547cb174f4\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0813418bcb10b295369b8c68444aee84\transformed\navigation-ui-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\12e0e8ebdb63258e1f080cce0a7e2d4c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9e5897a3dbecfb2cb689d8eb2a14ac99\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\14a2d6a26a14e2d8b54d8a67f65615c8\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\9e6550c70994b84570dc69ee40de4878\transformed\navigation-common-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\786958a9fe406d2c426ee52ff27725ed\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\1a652730e89258151f8b15c4af965e38\transformed\jetified-room-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\bae92121044d9092056476e00e59c70f\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\fa7dce9cc501028863bef45afe63a41f\transformed\jetified-lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d19168474ab292dd65fd177060f33393\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2221cb3980225ba3e33601059f2ac99\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb756b7749537a64d7161c540cef851f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\34dce44b51914a85f103caf6d54f92c8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Kvanto\.gradle\caches\transforms-3\342bbffc4cd78e89e6178bb98bf07abf\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\2983022033cbcc7cea9629c1ec1b4335\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\543c13b884d9983e4e9bc8e4de0b4529\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\29c271822316fc00df5ed7ca58a764c8\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2937c25437b1b523d01ab29e23cea74\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2a3e7339857ad7e1b7bae0bc345766e3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\0eb7ac96ba6bb7e8b86e761ae62e2522\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\4ccf88167b5b721f07a569853911a4ba\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6d2991ae0fbde0928c148d683f232c4b\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb06376f532baef4195d47a56137689a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\5f32784c61380e8c935391ec10f702b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\a55135f83edbd1fa420948deee8006a5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\60c81507b986d8135ab78e8db08b9521\transformed\jetified-activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7907528bfe877b22af960ea39bd85c99\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\8e7a38f835eb2bc89e0a552954c64207\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e7eb96b14ff49c8689c46a7a9fe5a895\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\8c17bd9367a6d6667a0886f339adc252\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f6f5e5dec5857803d84ebcdddd9c615e\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ad468d74a500919ea3e1497519a598ac\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d4a2be873f7253883de12dbb4e6c649f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cd15bde074bca69f8ea54508f591f8ab\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\71175f532bda022037dc0c0a3527054b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\7264eb4226646c004fd39ea70bf20738\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\66281a17ce7e5b162ed18a64eaebdd7f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\387159712a99108ede48b947d4d4e908\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\05685800e2cd73f94d2cb1c4c2055e1c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\97a5a488b6948d84d01829f5ff49bb89\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\3860293ddaf45b8196dd77b11868306d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\b3b27d11eff942b22e1719daa2586043\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d114bcf70840e28366d1477e63969dd2\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2f609c673cacd5e2b6c1cdc8278d36d7\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7a2f5d41e15caca1384629447b151048\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\061aa1ece978b9e8bbaeccd789ab6c8e\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\33af4ea25710ab2a3d81339fb6247a1e\transformed\jetified-lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\938225e0980e484a276d1ff366314ca3\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\18e65e8ee33fce316f4f3002f4a27eb9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6971b9226e9909d0ec63a2b56c41a679\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ebd8cc783717142212cb96b36574496e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\78fec5ea0af0153e75ad7b1363c38aa5\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\452e765104e5d7adc36e0df4cad735d6\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bc62f3847c4e324f26b56d076ae2c5bd\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\4f7f64c5c9c8393818e78a97721ce669\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\70f9b31ee8b886e68400b79ec6bd8323\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\351ce1c28b5c891db39a2edba68900ef\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\faab5544f8f41aed464e9ea044591cb9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9158fcc948d18ef579a2aecc818ef1af\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\30b36f667ed0160f00c444e858984ac7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d19b9df644cdeccc4b147e0ecf1bbc3e\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bd274a9e3c01d8c56861be397ade6fe2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2b14d31379f68a04f02b7a5a30619b3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:8:5-31:19
+MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-navigation:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\5a41c44cf1b421f602a9c33e63f5f6c5\transformed\jetified-koin-androidx-navigation-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-navigation:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\5a41c44cf1b421f602a9c33e63f5f6c5\transformed\jetified-koin-androidx-navigation-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f5e4f229de6a1e7996d56a297a1dff4e\transformed\jetified-koin-android-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f5e4f229de6a1e7996d56a297a1dff4e\transformed\jetified-koin-android-3.2.0-beta-1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Kvanto\.gradle\caches\transforms-3\342bbffc4cd78e89e6178bb98bf07abf\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Kvanto\.gradle\caches\transforms-3\342bbffc4cd78e89e6178bb98bf07abf\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\2983022033cbcc7cea9629c1ec1b4335\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\2983022033cbcc7cea9629c1ec1b4335\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\543c13b884d9983e4e9bc8e4de0b4529\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\543c13b884d9983e4e9bc8e4de0b4529\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2937c25437b1b523d01ab29e23cea74\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2937c25437b1b523d01ab29e23cea74\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\0eb7ac96ba6bb7e8b86e761ae62e2522\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\0eb7ac96ba6bb7e8b86e761ae62e2522\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\18e65e8ee33fce316f4f3002f4a27eb9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\18e65e8ee33fce316f4f3002f4a27eb9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bc62f3847c4e324f26b56d076ae2c5bd\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bc62f3847c4e324f26b56d076ae2c5bd\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\70f9b31ee8b886e68400b79ec6bd8323\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\70f9b31ee8b886e68400b79ec6bd8323\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:15:9-45
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:9:9-32
+activity#com.example.newsapp.ui.SplashScreenActivity
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:16:9-26:20
+	android:label
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:19:13-65
+	android:exported
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:20:13-61
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:17:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.example.newsapp.ui.NewsActivity
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:27:9-30:63
+	android:exported
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:30:13-61
+	android:name
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:28:13-44
+uses-sdk
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-navigation:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\5a41c44cf1b421f602a9c33e63f5f6c5\transformed\jetified-koin-androidx-navigation-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-navigation:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\5a41c44cf1b421f602a9c33e63f5f6c5\transformed\jetified-koin-androidx-navigation-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f5e4f229de6a1e7996d56a297a1dff4e\transformed\jetified-koin-android-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f5e4f229de6a1e7996d56a297a1dff4e\transformed\jetified-koin-android-3.2.0-beta-1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\afda3a2d602dc25f898ed025d311b306\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\afda3a2d602dc25f898ed025d311b306\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\524072ebea95238bfa535a2e3a5998bb\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\524072ebea95238bfa535a2e3a5998bb\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\58a85c2dd4bba995832fd6e5444d0e17\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\58a85c2dd4bba995832fd6e5444d0e17\transformed\jetified-fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0a34521ded0930bd7dec66fd0eca6d12\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0a34521ded0930bd7dec66fd0eca6d12\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\836a93892456cdb3c07cc4547cb174f4\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\836a93892456cdb3c07cc4547cb174f4\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0813418bcb10b295369b8c68444aee84\transformed\navigation-ui-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\0813418bcb10b295369b8c68444aee84\transformed\navigation-ui-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\12e0e8ebdb63258e1f080cce0a7e2d4c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\12e0e8ebdb63258e1f080cce0a7e2d4c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9e5897a3dbecfb2cb689d8eb2a14ac99\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9e5897a3dbecfb2cb689d8eb2a14ac99\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\14a2d6a26a14e2d8b54d8a67f65615c8\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\14a2d6a26a14e2d8b54d8a67f65615c8\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\9e6550c70994b84570dc69ee40de4878\transformed\navigation-common-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\9e6550c70994b84570dc69ee40de4878\transformed\navigation-common-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\786958a9fe406d2c426ee52ff27725ed\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\786958a9fe406d2c426ee52ff27725ed\transformed\jetified-lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\1a652730e89258151f8b15c4af965e38\transformed\jetified-room-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\1a652730e89258151f8b15c4af965e38\transformed\jetified-room-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\bae92121044d9092056476e00e59c70f\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\bae92121044d9092056476e00e59c70f\transformed\jetified-lifecycle-runtime-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\fa7dce9cc501028863bef45afe63a41f\transformed\jetified-lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\fa7dce9cc501028863bef45afe63a41f\transformed\jetified-lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d19168474ab292dd65fd177060f33393\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d19168474ab292dd65fd177060f33393\transformed\work-runtime-ktx-2.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2221cb3980225ba3e33601059f2ac99\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2221cb3980225ba3e33601059f2ac99\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb756b7749537a64d7161c540cef851f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb756b7749537a64d7161c540cef851f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\34dce44b51914a85f103caf6d54f92c8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\34dce44b51914a85f103caf6d54f92c8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Kvanto\.gradle\caches\transforms-3\342bbffc4cd78e89e6178bb98bf07abf\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Kvanto\.gradle\caches\transforms-3\342bbffc4cd78e89e6178bb98bf07abf\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\2983022033cbcc7cea9629c1ec1b4335\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\2983022033cbcc7cea9629c1ec1b4335\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\543c13b884d9983e4e9bc8e4de0b4529\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\543c13b884d9983e4e9bc8e4de0b4529\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\29c271822316fc00df5ed7ca58a764c8\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\29c271822316fc00df5ed7ca58a764c8\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2937c25437b1b523d01ab29e23cea74\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\c2937c25437b1b523d01ab29e23cea74\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2a3e7339857ad7e1b7bae0bc345766e3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2a3e7339857ad7e1b7bae0bc345766e3\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\0eb7ac96ba6bb7e8b86e761ae62e2522\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\0eb7ac96ba6bb7e8b86e761ae62e2522\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\4ccf88167b5b721f07a569853911a4ba\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\4ccf88167b5b721f07a569853911a4ba\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6d2991ae0fbde0928c148d683f232c4b\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6d2991ae0fbde0928c148d683f232c4b\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb06376f532baef4195d47a56137689a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cb06376f532baef4195d47a56137689a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\5f32784c61380e8c935391ec10f702b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\5f32784c61380e8c935391ec10f702b5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\a55135f83edbd1fa420948deee8006a5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\a55135f83edbd1fa420948deee8006a5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\60c81507b986d8135ab78e8db08b9521\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\60c81507b986d8135ab78e8db08b9521\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7907528bfe877b22af960ea39bd85c99\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7907528bfe877b22af960ea39bd85c99\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\8e7a38f835eb2bc89e0a552954c64207\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\8e7a38f835eb2bc89e0a552954c64207\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e7eb96b14ff49c8689c46a7a9fe5a895\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e7eb96b14ff49c8689c46a7a9fe5a895\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\8c17bd9367a6d6667a0886f339adc252\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\8c17bd9367a6d6667a0886f339adc252\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f6f5e5dec5857803d84ebcdddd9c615e\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f6f5e5dec5857803d84ebcdddd9c615e\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ad468d74a500919ea3e1497519a598ac\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ad468d74a500919ea3e1497519a598ac\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d4a2be873f7253883de12dbb4e6c649f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d4a2be873f7253883de12dbb4e6c649f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cd15bde074bca69f8ea54508f591f8ab\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\cd15bde074bca69f8ea54508f591f8ab\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\71175f532bda022037dc0c0a3527054b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\71175f532bda022037dc0c0a3527054b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\7264eb4226646c004fd39ea70bf20738\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\7264eb4226646c004fd39ea70bf20738\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\66281a17ce7e5b162ed18a64eaebdd7f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\66281a17ce7e5b162ed18a64eaebdd7f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\387159712a99108ede48b947d4d4e908\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\387159712a99108ede48b947d4d4e908\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\05685800e2cd73f94d2cb1c4c2055e1c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\05685800e2cd73f94d2cb1c4c2055e1c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\97a5a488b6948d84d01829f5ff49bb89\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\97a5a488b6948d84d01829f5ff49bb89\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\3860293ddaf45b8196dd77b11868306d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\3860293ddaf45b8196dd77b11868306d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\b3b27d11eff942b22e1719daa2586043\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\b3b27d11eff942b22e1719daa2586043\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d114bcf70840e28366d1477e63969dd2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\d114bcf70840e28366d1477e63969dd2\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2f609c673cacd5e2b6c1cdc8278d36d7\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2f609c673cacd5e2b6c1cdc8278d36d7\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7a2f5d41e15caca1384629447b151048\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\7a2f5d41e15caca1384629447b151048\transformed\lifecycle-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\061aa1ece978b9e8bbaeccd789ab6c8e\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\061aa1ece978b9e8bbaeccd789ab6c8e\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\33af4ea25710ab2a3d81339fb6247a1e\transformed\jetified-lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\33af4ea25710ab2a3d81339fb6247a1e\transformed\jetified-lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\938225e0980e484a276d1ff366314ca3\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Kvanto\.gradle\caches\transforms-3\938225e0980e484a276d1ff366314ca3\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\18e65e8ee33fce316f4f3002f4a27eb9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\18e65e8ee33fce316f4f3002f4a27eb9\transformed\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6971b9226e9909d0ec63a2b56c41a679\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\6971b9226e9909d0ec63a2b56c41a679\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ebd8cc783717142212cb96b36574496e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\ebd8cc783717142212cb96b36574496e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\78fec5ea0af0153e75ad7b1363c38aa5\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\78fec5ea0af0153e75ad7b1363c38aa5\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\452e765104e5d7adc36e0df4cad735d6\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\452e765104e5d7adc36e0df4cad735d6\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bc62f3847c4e324f26b56d076ae2c5bd\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bc62f3847c4e324f26b56d076ae2c5bd\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\4f7f64c5c9c8393818e78a97721ce669\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Kvanto\.gradle\caches\transforms-3\4f7f64c5c9c8393818e78a97721ce669\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\70f9b31ee8b886e68400b79ec6bd8323\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Kvanto\.gradle\caches\transforms-3\70f9b31ee8b886e68400b79ec6bd8323\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\351ce1c28b5c891db39a2edba68900ef\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\351ce1c28b5c891db39a2edba68900ef\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\faab5544f8f41aed464e9ea044591cb9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\faab5544f8f41aed464e9ea044591cb9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9158fcc948d18ef579a2aecc818ef1af\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\9158fcc948d18ef579a2aecc818ef1af\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\30b36f667ed0160f00c444e858984ac7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\30b36f667ed0160f00c444e858984ac7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d19b9df644cdeccc4b147e0ecf1bbc3e\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d19b9df644cdeccc4b147e0ecf1bbc3e\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bd274a9e3c01d8c56861be397ade6fe2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\bd274a9e3c01d8c56861be397ade6fe2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2b14d31379f68a04f02b7a5a30619b3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2b14d31379f68a04f02b7a5a30619b3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\506c63283703b41c20a367c86f2e0054\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58

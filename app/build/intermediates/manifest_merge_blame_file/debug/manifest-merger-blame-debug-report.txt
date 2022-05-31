@@ -1,0 +1,317 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+13-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+14-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+15-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+16
+17    <application
+17-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:8:5-31:19
+18        android:name="com.example.newsapp.app.App"
+18-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:9:9-32
+19        android:allowBackup="true"
+19-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.NewsApp" >
+27-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:15:9-45
+28        <activity
+28-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:16:9-26:20
+29            android:name="com.example.newsapp.ui.SplashScreenActivity"
+29-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:17:13-52
+30            android:exported="true"
+30-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:18:13-36
+31            android:label="@string/title_activity_splash_screen"
+31-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:19:13-65
+32            android:theme="@style/Theme.NewsApp.NoActionBar" >
+32-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:20:13-61
+33            <intent-filter>
+33-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:21:13-25:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:17-69
+34-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:17-77
+36-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:27:9-30:63
+40            android:name="com.example.newsapp.ui.NewsActivity"
+40-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:28:13-44
+41            android:exported="false"
+41-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:29:13-37
+42            android:theme="@style/Theme.NewsApp.NoActionBar" />
+42-->C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:30:13-61
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+50
+51        <provider
+51-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+53            android:authorities="com.example.newsapp.androidx-startup"
+53-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+54            android:exported="false" >
+54-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+55            <meta-data
+55-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+56                android:name="androidx.work.WorkManagerInitializer"
+56-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+57                android:value="androidx.startup" />
+57-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\d31751b9a7595bd1384eeccd0f17bab9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Kvanto\.gradle\caches\transforms-3\1eb7cf10395c43f4ca3b01b118549544\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+64        </provider>
+65
+66        <service
+66-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+67            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+67-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+68            android:directBootAware="false"
+68-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+69            android:enabled="@bool/enable_system_alarm_service_default"
+69-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+70            android:exported="false" />
+70-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+71        <service
+71-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+72            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+72-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+73            android:directBootAware="false"
+73-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+74            android:enabled="@bool/enable_system_job_service_default"
+74-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+75            android:exported="true"
+75-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+76            android:permission="android.permission.BIND_JOB_SERVICE" />
+76-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+77        <service
+77-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+78            android:name="androidx.work.impl.foreground.SystemForegroundService"
+78-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+79            android:directBootAware="false"
+79-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+80            android:enabled="@bool/enable_system_foreground_service_default"
+80-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+81            android:exported="false" />
+81-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+82
+83        <receiver
+83-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+84            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+84-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+85            android:directBootAware="false"
+85-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+86            android:enabled="true"
+86-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+87            android:exported="false" />
+87-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+88        <receiver
+88-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+89            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+89-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+90            android:directBootAware="false"
+90-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+91            android:enabled="false"
+91-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+92            android:exported="false" >
+92-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+93            <intent-filter>
+93-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+94                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+94-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+94-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+95                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+95-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+95-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+96            </intent-filter>
+97        </receiver>
+98        <receiver
+98-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+99            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+99-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+100            android:directBootAware="false"
+100-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+101            android:enabled="false"
+101-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+102            android:exported="false" >
+102-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+103            <intent-filter>
+103-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+104                <action android:name="android.intent.action.BATTERY_OKAY" />
+104-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+104-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+105                <action android:name="android.intent.action.BATTERY_LOW" />
+105-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+105-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+106            </intent-filter>
+107        </receiver>
+108        <receiver
+108-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+109            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+109-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+110            android:directBootAware="false"
+110-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+111            android:enabled="false"
+111-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+112            android:exported="false" >
+112-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+113            <intent-filter>
+113-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+114                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+114-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+114-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+115                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+115-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+115-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+116            </intent-filter>
+117        </receiver>
+118        <receiver
+118-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+119            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+119-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+120            android:directBootAware="false"
+120-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+121            android:enabled="false"
+121-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+122            android:exported="false" >
+122-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+123            <intent-filter>
+123-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+124                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+124-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+124-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+125            </intent-filter>
+126        </receiver>
+127        <receiver
+127-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+128            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+128-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+129            android:directBootAware="false"
+129-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+130            android:enabled="false"
+130-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+131            android:exported="false" >
+131-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+132            <intent-filter>
+132-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+133                <action android:name="android.intent.action.BOOT_COMPLETED" />
+133-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+133-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+134                <action android:name="android.intent.action.TIME_SET" />
+134-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+134-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+135                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+135-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+135-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+136            </intent-filter>
+137        </receiver>
+138        <receiver
+138-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+139            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+139-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+141            android:enabled="@bool/enable_system_alarm_service_default"
+141-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+142            android:exported="false" >
+142-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+143            <intent-filter>
+143-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+144                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+145            </intent-filter>
+146        </receiver>
+147        <receiver
+147-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+148            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+148-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+149            android:directBootAware="false"
+149-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+150            android:enabled="true"
+150-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+151            android:exported="true"
+151-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+152            android:permission="android.permission.DUMP" >
+152-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+153            <intent-filter>
+153-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+154                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+155            </intent-filter>
+156        </receiver>
+157
+158        <service
+158-->[androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+159            android:name="androidx.room.MultiInstanceInvalidationService"
+159-->[androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+160            android:directBootAware="true"
+160-->[androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+161            android:exported="false" />
+161-->[androidx.room:room-runtime:2.4.2] C:\Users\Kvanto\.gradle\caches\transforms-3\c5d541166fea438aa7bd3e804976736c\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+164            android:name="com.google.android.gms.version"
+164-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+165            android:value="@integer/google_play_services_version" />
+165-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+166    </application>
+167
+168</manifest>
