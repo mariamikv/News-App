@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kvanto\\.gradle\\caches\\transforms-3\\29c271822316fc00df5ed7ca58a764c8\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",

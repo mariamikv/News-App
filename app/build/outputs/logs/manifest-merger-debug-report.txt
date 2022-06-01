@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:2:1-9:12
@@ -86,35 +86,35 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Kvanto\.gradle\caches\tran
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Kvanto\.gradle\caches\transforms-3\2b14d31379f68a04f02b7a5a30619b3a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:1-33:12
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Kvanto\.gradle\caches\transforms-3\a66eeb7f28f9408d38f08cb7c7660507\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:8:5-31:19
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:8:5-31:19
 MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-androidx-workmanager:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\8cb7ae1050693ae22d9deb63471307a2\transformed\jetified-koin-androidx-workmanager-3.2.0-beta-1\AndroidManifest.xml:7:5-20
@@ -160,51 +160,51 @@ MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvan
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Kvanto\.gradle\caches\transforms-3\e65b3afa7a45d53826578eb8236d6566\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:15:9-45
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:9:9-32
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:9:9-32
 activity#com.example.newsapp.ui.SplashScreenActivity
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:16:9-26:20
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:16:9-26:20
 	android:label
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:19:13-65
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:19:13-65
 	android:exported
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:20:13-61
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:20:13-61
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:17:13-52
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:17:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.newsapp.ui.NewsActivity
-ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:27:9-30:63
+ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:27:9-30:63
 	android:exported
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:29:13-37
 	android:theme
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:30:13-61
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:30:13-61
 	android:name
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml:28:13-44
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml:28:13-44
 uses-sdk
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\Kvanto\.gradle\caches\transforms-3\b458d6d007cb9e5ac5c628cb88ae1c5e\transformed\jetified-viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
 MERGED from [io.insert-koin:koin-android-compat:3.2.0-beta-1] C:\Users\Kvanto\.gradle\caches\transforms-3\f520707c2cceb2a7b0837fb16b3feca9\transformed\jetified-koin-android-compat-3.2.0-beta-1\AndroidManifest.xml:5:5-44
@@ -369,16 +369,16 @@ MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\ab5ba7e05cadaf8fdf2bbb2588753ce7\transformed\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Kvanto\.gradle\caches\transforms-3\f69d182c77a3d7f9f0950bedd73aa563\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\NewsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kvanto\AndroidStudioProjects\final-project\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] C:\Users\Kvanto\.gradle\caches\transforms-3\276620e90f47a3a258e3b9f0da8ed31c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required

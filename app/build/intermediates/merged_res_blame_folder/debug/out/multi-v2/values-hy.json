@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kvanto\\.gradle\\caches\\transforms-3\\f69d182c77a3d7f9f0950bedd73aa563\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-hy\\values.xml",

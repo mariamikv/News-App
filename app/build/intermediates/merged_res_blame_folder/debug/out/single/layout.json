@@ -1,34 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_breaking_news.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\fragment_breaking_news.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\news_activity.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\news_activity.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\news_activity.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\news_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_article.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_article.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_article_preview.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\item_article_preview.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_article.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\fragment_article.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_breaking_news.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_breaking_news.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_saved_news.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\fragment_saved_news.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_custom_splash_screen.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_custom_splash_screen.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search_news.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\fragment_search_news.xml"
     },
     {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_saved_news.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_saved_news.xml"
-    },
-    {
-        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search_news.xml",
-        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\NewsApp\\app\\src\\main\\res\\layout\\fragment_search_news.xml"
+        "merged": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_article_preview.xml",
+        "source": "C:\\Users\\Kvanto\\AndroidStudioProjects\\final-project\\app\\src\\main\\res\\layout\\item_article_preview.xml"
     }
 ]
